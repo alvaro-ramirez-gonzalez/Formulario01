@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Registro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Registro de Estudiantes</h1>
+    <form>
+      <div class="form-group">
+        <label for="foto">Foto del Estudiante</label>
+        <input type="file" id="foto" name="foto">
+      </div>
+      <div class="form-group">
+        <label for="nombre">Nombre Completo</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="edad">Edad</label>
+        <input type="number" id="edad" name="edad" required>
+      </div>
+      <div class="form-group">
+        <label for="universidad">Universidad</label>
+        <input type="text" id="universidad" name="universidad" required>
+      </div>
+      <div class="form-group">
+        <label for="carrera">Carrera</label>
+        <input type="text" id="carrera" name="carrera" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <button type="submit">Registrar</button>
+    </form>
+    <p>&copy; 2024 Nombre del Estudiante. Todos los derechos reservados.</p>
+  </div>
+</body>
+</html>
